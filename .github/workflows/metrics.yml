@@ -1,3 +1,4 @@
+# Visit https://github.com/lowlighter/metrics#-documentation for full reference
 name: Metrics
 on:
   # Schedule updates (each hour)
@@ -25,12 +26,8 @@ jobs:
 
           # Options
           template: classic
-          base: header, activity, community, repositories, metadata
-          base_hireable: yes
-          base_indepth: yes
-          base_skip: yes
-          config_display: columns
+          base: ""
           config_timezone: Europe/Paris
           plugin_isocalendar: yes
-          plugin_isocalendar_duration: half-year
+          plugin_isocalendar_duration: full-year
           repositories_forks: yes
